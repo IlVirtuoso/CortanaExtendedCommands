@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="it-it" Name="CustomCommandSet">
+    <CommandPrefix>Ascoltami</CommandPrefix>
+    <Example>Qui Puoi Sentire I Tuoi Comandi personalizzati</Example>
+    <Command Name="SpegniComputer">
+      <ListenFor>spegniti</ListenFor>
+      <ListenFor>spegnimento</ListenFor>
+      <Feedback>Spegnimento</Feedback>
+
+      <Navigate/>
+    </Command>
+    
+
+    
+    
+  </CommandSet>
+  
+</VoiceCommands>
